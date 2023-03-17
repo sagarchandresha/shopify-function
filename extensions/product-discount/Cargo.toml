@@ -13,9 +13,3 @@ graphql_client = { version = "0.12.0" }
 lto = true
 opt-level = 'z'
 strip = true
-
-[toolchain]
-channel = "nightly-2020-07-10"
-components = [ "rustfmt", "rustc-dev" ]
-targets = [ "wasm32-unknown-unknown", "thumbv2-none-eabi" ]
-profile = "minimal"
